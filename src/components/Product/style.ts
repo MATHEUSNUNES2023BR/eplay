@@ -6,6 +6,11 @@ export const Card = styled.div`
   background-color: ${cores.cinza};
   border-radius: 8px;
   padding: 8px;
+  img {
+    border-radius: 8px;
+    width: 220px;
+    height: 260px;
+  }
   position: relative;
   ${TagContainer} {
     margin-right: 8px;
