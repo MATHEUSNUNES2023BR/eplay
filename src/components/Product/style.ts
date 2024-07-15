@@ -10,6 +10,7 @@ export const Card = styled.div`
     border-radius: 8px;
     width: 220px;
     height: 260px;
+    object-fit: cover;
   }
   position: relative;
   ${TagContainer} {
