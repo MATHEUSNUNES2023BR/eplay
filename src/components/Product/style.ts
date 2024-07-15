@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 import { cores } from '../../style'
 import { TagContainer } from '../Tag/styles'
-
+import { Link } from 'react-router-dom'
+export const LinkContainer = styled(Link)`
+  text-decoration: none;
+  color: ${cores.branca};
+`
 export const Card = styled.div`
   background-color: ${cores.cinza};
   border-radius: 8px;
@@ -10,7 +14,6 @@ export const Card = styled.div`
     border-radius: 8px;
     width: 220px;
     height: 260px;
-    object-fit: cover;
   }
   position: relative;
   ${TagContainer} {

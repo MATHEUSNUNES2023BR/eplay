@@ -18,6 +18,7 @@ export type Game = {
     current?: number
   }
   details: {
+    languages: string[]
     category: string
     system: string
     developer: string
